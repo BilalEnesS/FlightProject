@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    padding: 10px 20px;
+}
+.logo {
+    float: left;
+    color: white;
+    font-size: 24px;
+    padding-right: 20px;
+    margin-left: 20px;
+}
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+.nav-links li {
+    display: inline;
+}
+.nav-links a, .button1 {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+.button2{
+    width: auto;
+    margin-top:0px;
+    margin-right: 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+}
+.filter-bar {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #fff;
+}
+.filter-bar select, .filter-bar button {
+    padding: 5px 10px;
+    margin: 0 5px;
+}
+.flights-list {
+    margin: 10px 5%;
+    background-color: #fff;
+    padding: 20px;
+}
+.flight {
+    border-bottom: 1px solid #ccc;
+    padding: 20px 0; /* Increased padding for more space between flights */
+}
+.flight-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.label {
+    font-weight: bold;
+    color: #0056b3; /* Mavi tonu */
+    margin-right: 5px; /* Başlık ve değer arasında boşluk */
+}
+
+.time-location span, .class-options div span {
+    display: inline-block; /* Başlık ve değer yan yana */
+    margin-right: 10px; /* Değerler arasında boşluk */
+}
+
+.time-location, .class-options div {
+    margin-bottom: 10px; /* Bloklar arası boşluk */
+}
+
+.class-options div {
+    background-color: #f0f0f0; /* Sınıf seçeneklerine arkaplan rengi */
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.class-options button {
+    background-color: #1e9c88; /* Yeşil buton */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    display: block; /* Butonu blok yap */
+    width: 100%; /* Butonu div'e genişlet */
+    margin-top: 5px; /* Buton üstte boşluk */
+}
+
+.class-options button:hover {
+    background-color: #45a049; /* Buton hover rengi */
+}

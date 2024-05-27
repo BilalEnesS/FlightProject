@@ -1,0 +1,27 @@
+.carousel {
+    display: grid; /* Define the container as a grid */
+    grid-template-columns: repeat(3, 1fr); /* Create three columns with equal width */
+    gap: 20px; /* Optional: add space between the columns */
+    margin: 20px; /* Margin around the carousel for better spacing from the document edges */
+    text-align: center; /* Center the text */
+}
+
+.carousel div {
+    padding: 20px; /* Padding around the content */
+    background: #fff; /* Optional: add a background color to each carousel item */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Optional: add shadow for better visibility */
+}
+
+.carousel img {
+    width: 100%; /* Ensure the image fills the container */
+    max-height: 200px; /* Limit image height */
+    object-fit: cover; /* Ensure the aspect ratio is maintained */
+}
+
+.carousel p {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    color: white; /* White text color */
+    display: inline-block; /* Keep the background to the text */
+    padding: 5px 10px; /* Padding around text */
+}
+

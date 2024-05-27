@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight Search Results</title>
+    <link rel="stylesheet" href="styles_booking.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">SkyWings</div>
+            <ul class="nav-links">
+                <li><a href="site1.html">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="profile_page.html">Profile</a></li>
+                <li><button class="button2"><a href="login.html">Sign out</a></button></li>
+            </ul>
+        </nav>
+    </header>
+    <h4>Filter</h4>
+    <div class="filter-bar">
+        <select>
+            <option>Direct / With stops</option>
+            <option>Direct</option>
+            <option>1 stop</option>
+            <option>2+ stops</option>
+        </select>
+        <select>
+            <option>Airline</option>
+            <option>SkyWings</option> <!-- Added SkyWings here -->
+            
+        </select>
+        <select>
+            <option>Price ascending</option>
+            <option>Price descending</option>
+        </select>
+        <button>+3 more</button>
+    </div>
+
+    <div class="flights-list">
+        <!-- Repeat this block for each flight -->
+        <div class="flight">
+            <div class="flight-info">
+                <div class="time-location">
+                    <span class="label">From:</span><span>01:20 IST</span>
+                    <span class="label">To:</span><span>11:45 JFK</span>
+                    <span class="label">Duration:</span><span>10h 25m</span>
+                    <span class="label">Plane Model:</span><span>Airbus A350</span>
+                    <span class="label">Airline:</span><span>SkyWings</span>
+                </div>
+                <div class="class-options">
+                    <div class="eco">
+                        <span class="label">Economy Price:</span>
+                        <span>TRY 17.249,70</span>
+                        <button>Book</button>
+                    </div>
+                    <div class="bus">
+                        <span class="label">Business Price:</span>
+                        <span>TRY 42.620,70</span>
+                        <button>Book</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+
+        <div class="flight">
+            <div class="flight-info">
+                <div class="time-location">
+                    <span class="label">From:</span><span>06:20 IST</span>
+                    <span class="label">To:</span><span>16:45 JFK</span>
+                    <span class="label">Duration:</span><span>10h 25m</span>
+                    <span class="label">Plane Model:</span><span>Airbus A330</span>
+                    <span class="label">Airline:</span><span>SkyWings</span>
+                </div>
+                <div class="class-options">
+                    <div class="eco">
+                        <span class="label">Economy Price:</span>
+                        <span>TRY 11.249,70</span>
+                        <button>Book</button>
+                    </div>
+                    <div class="bus">
+                        <span class="label">Business Price:</span>
+                        <span>TRY 21.620,70</span>
+                        <button>Book</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="flight">
+            <div class="flight-info">
+                <div class="time-location">
+                    <span class="label">From:</span><span>11:20 IST</span>
+                    <span class="label">To:</span><span>21:45 JFK</span>
+                    <span class="label">Duration:</span><span>10h 25m</span>
+                    <span class="label">Plane Model:</span><span>Airbus A330</span>
+                    <span class="label">Airline:</span><span>SkyWings</span>
+                </div>
+                <div class="class-options">
+                    <div class="eco">
+                        <span class="label">Economy Price:</span>
+                        <span>TRY 13.249,70</span>
+                        <button>Book</button>
+                    </div>
+                    <div class="bus">
+                        <span class="label">Business Price:</span>
+                        <span>TRY 29.620,70</span>
+                        <button>Book</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
